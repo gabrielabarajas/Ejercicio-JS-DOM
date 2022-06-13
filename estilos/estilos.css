@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.enunciado-ejercicio{
+    color: blue;
+    max-width: 75%;
+} 
+
+#cuadrado{
+    margin-bottom: 4%;
+    width: 50px;
+    height: 50px;
+    border-radius: 0;
+    background-color: red;
+}
+#listaCompra{
+    display: none;
+}
+
+#card{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#item1{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#item3{
+    font-size: 18px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+#item4, #item5{
+    margin: 0 0;
+}
+
+#item6{
+    width: 50%;
+}

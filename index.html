@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/estilos.css">
+    <title>🚀 Ejercicios JS DOM 🚀</title>
+</head>
+<body>
+    <header>
+        <h1>🚀🚀 Ejercicios JS DOM 🚀🚀</h1>
+    </header>
+    <main>
+        <div id = "Ejercicio1">
+            <p class = "enunciado-ejercicio" >1. Desarrollar una función que escriba en la consola del navegador cada item de una lista de la compra.</p>
+            <button id = "ejercicio1" onclick="imprimeLista()">Ejecutar Ejercicio 1</button>
+        </div>
+        
+        <div id = "Ejercicio2">
+            <p class = "enunciado-ejercicio" >2. Desarrollar una función que escriba un Título h1 en el documento HTML.</p>
+            <button id = "ejercicio2" onclick="addTituloH1()">Ejecutar Ejercicio 2</button>
+        </div>
+        
+        <div id = "Ejercicio3">
+            <p class = "enunciado-ejercicio" >3. Teniendo un cuadrado de color rojo en el documento de HTML:
+                Desarrollar una función que, al hacer click en el mismo, éste se transforme en una círculo de color verde.</p>
+                <button id = "cuadrado" onclick="creaCirculo()"></button>
+        </div>
+        
+        <div id = "Ejercicio4">
+            <p class = "enunciado-ejercicio" >4. Teniendo un input de texto y un botón: Desarrollar una función que al hacer click en él, escriba el contenido (value) del input como un título en el documento.</p>
+            Ingresa un string: <input id = "textoEj4" type="text">
+            <button id = "ejercicio4" onclick="tituloDocumento()">Ejecutar Ejercicio 4</button>
+        </div>
+
+        <div id = "Ejercicio5">
+            <p class = "enunciado-ejercicio" >5. Desarrollar una función que escriba en el documento HTML cada item de una lista de la compra.</p>
+            <button id = "ejercicio5" onclick="imprimeEnDocumento()">Ejecutar Ejercicio 5</button>
+            <p id = "itemLista"></p>
+        </div>
+
+        <div id = "Ejercicio6">
+            <p class = "enunciado-ejercicio" >6. Desarrollar una función que dibuje una 'Card' de una película en el documento usando un objeto javascript como datos. </p>
+            <button id = "ejercicio6" onclick=" creaItemCard(card)">Ejecutar Ejercicio 6</button>
+        </div>
+        <section id = "card">
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="./js/datos.js"></script>
+    <script src="./js/funciones.js"></script>
+</body>
+</html>
